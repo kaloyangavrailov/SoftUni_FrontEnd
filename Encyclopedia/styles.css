@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    max-width: 870px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Agbalumo';
+}
+
+body {
+    border: 3px solid grey;
+}
+
+hr {
+    margin-left: 17px;
+    margin-right: 48px;
+}
+
+main {
+    margin: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+header {
+    background-color: rgba(213, 235, 234, 255);
+}
+
+footer section {
+    background-color: rgba(212, 235, 234, 255);
+}
+
+h1 {
+    font-size: 38px;
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+hr {
+    padding-left: 17px;
+    padding-right: 48px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section.text-content {
+    padding-top: 27px;
+    padding-bottom: 7px;
+    text-indent: 28px;
+}
+
+section.text-content > p {
+    font-size: 16px;
+}
+
+section.media-content{
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 37px;
+}
+
+section.media-content > p {
+    text-indent: 28px;
+    margin-top: 26px;
+    font-size: 12px;
+}
+
+footer > p {
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 374px;
+    text-align: center;
+}
+
+/* section p {
+    font-size: 17px;
+} */
+
+span {
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    gap: 21px;
+    margin-left: 17px;
+    margin-right: 48px;
+    margin-top: 36px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer > section > p {
+    padding-bottom: 17px;
+    padding-left: 35px;
+}
+
+footer > section > p:first-of-type {
+    padding-top: 22px;
+}
+
+footer > section > p:last-of-type {
+    padding-bottom: 11px;
+}
