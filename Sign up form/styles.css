@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+/*Sign up for free - Titlel 44px */
+/* Get -started - 40 px */
+
+html{
+    font-size: 12px;
+    font-family: 'Kode Mono';
+}
+
+body {
+    background-color: rgba(193, 189, 186, 255);
+}
+
+main {
+    max-width: 750px;
+    max-height: 800px;
+    margin: 0 auto;
+    background-color: rgba(36, 51, 60, 255);
+}
+
+main > section {
+    padding: 50px;
+}
+
+header {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    flex-grow: 1;
+    padding: 21px 110px 21px;
+    font-size: 18px;
+}
+
+.button-log-in {
+    background-color: rgba(67, 83, 89, 255);
+    color: whitesmoke;
+}
+
+.button {
+    background-color: rgba(26, 177, 136, 255);
+    color: white;
+}
+
+input {
+    background-color: rgba(36, 51, 60, 255);
+    color: whitesmoke;
+}
+
+[value="Get Started"] {
+    color: white;
+    background-color: rgba(26, 177, 136, 255);
+    padding:30px 170px;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1 {
+    color: white;
+    font-size: 29px;
+    padding: 60px 185px 53px;
+}
+
+
+form div.padding-applicable {
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.form-row {
+    flex-direction: row;
+    gap: 5px;
+}
+
+form > div input {
+    flex-grow: 5;
+    font-size: 24px;
+    padding-top: 5px;
+    border-color: grey;
+}
